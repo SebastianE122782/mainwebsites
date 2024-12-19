@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code1</title>
+    <link rel="icon" type="image/x-icon" href="code1.png">
+    <style>
+        body {
+            background-color: #5740DD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            flex-direction: column; /* Stack buttons vertically */
+        }
+
+        button {
+            background-color: #ffffff; /* Button background color */
+            color: #2986cc; /* Text color */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 15px 30px; /* Padding for the button */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+            margin: 10px; /* Space between buttons */
+        }
+
+        button:hover {
+            background-color: #e0e0e0; /* Change background on hover */
+            transform: scale(1.05); /* Slightly enlarge the button */
+        }
+
+        button:active {
+            transform: scale(0.95); /* Slightly shrink the button on click */
+        }
+    </style>
+    <script type="text/javascript">
+        function openPopup() {
+            // Open the first popup window 
+            var popup = window.open("", "popup", "width=400,height=400,scrollbars=yes");
+
+            // Check if the popup was blocked
+            if (popup) {
+                // Write to the window
+                popup.document.write("<html><head><title>Home | Schoology</title></head><body>");
+                popup.document.write("<iframe src='index1.html' width='100%' height='100%' style='border:none;'></iframe>");
+                popup.document.write("</body></html>");
+                popup.document.close(); // Close the document to finish writing
+            } else {
+                alert("Popup was blocked. Please allow popups for this site.");
+            }
+        }
+
+        function  openSecondPopup() {
+            // Open the second popup window 
+            var popup = window.open("", "thridPopup", "width=530,height=500,scrollbars=yes");
+
+            // Check if the popup was blocked
+            if (popup) {
+                // Write to the window
+                popup.document.write("<html><head><title>Home | Schoology</title></head><body>");
+                popup.document.write("<iframe src='https://play.blooket.com/play' width='100%' height='100%' style='border:none;'></iframe>");
+                popup.document.write("</body></html>");
+                popup.document.close(); // Close the document to finish writing
+            } else {
+                alert("Popup was blocked. Please allow popups for this site.");
+            }
+        }
+        function openthridPopup() {
+            // Open the second popup window 
+            var popup = window.open("", "thridPopup", "width=530,height=500,scrollbars=yes");
+
+            // Check if the popup was blocked
+            if (popup) {
+                // Write to the window
+                popup.document.write("<html><head><title>Home | Schoology</title></head><body>");
+                popup.document.write("<iframe src='hi-just-look-away.html' width='100%' height='100%' style='border:none;'></iframe>");
+                popup.document.write("</body></html>");
+                popup.document.close(); // Close the document to finish writing
+            } else {
+                alert("Popup was blocked. Please allow popups for this site.");
+            }
+        }
+        
+                function openfourthPopup() {
+            // Open the second popup window 
+            var popup = window.open("", "fourthPopup", "width=530,height=500,scrollbars=yes");
+
+            // Check if the popup was blocked
+            if (popup) {
+                // Write to the window
+                popup.document.write("<html><head><title>Home | Schoology</title></head><body>");
+                popup.document.write("<iframe src='ect.html' width='100%' height='100%' style='border:none;'></iframe>");
+                popup.document.write("</body></html>");
+                popup.document.close(); // Close the document to finish writing
+            } else {
+                alert("Popup was blocked. Please allow popups for this site.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="openPopup()">Better Blooket</button>
+    <button onclick="openSecondPopup()">Blooket</button>
+    <button onclick="openthridPopup()">Calculator</button>
+    <button onclick="window.location.href='https://sites.google.com/students.d300.org/noob10b-x7v28/home'">eaglercraft hacks</button>
+    <button onclick="openfourthPopup()">About Me</button>
+</body>
+</html>
